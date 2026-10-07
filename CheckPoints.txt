@@ -1,0 +1,11 @@
+
+
+KB1
+
+Bude provedena analýza celého zadání a vytvořen přehled požadavků s přiřazením k jednotlivým částem systému a způsobům jejich ověření. Bude sestavena matice plánovaných testovacích scénářů, která vymezí podporované kategorie zranitelností, technologie, vstupní kontexty a očekávané výsledky. Rozsah projektu a požadavky na kompatibilitu s Penterep Tools a platformou Penterep budou upřesněny s vedoucím práce a firemním zadavatelem.
+
+Bude navržena modulární architektura frameworku v jazyce Python. Návrh bude obsahovat rozhraní testovacích modulů, strukturu odděleně uložených payloadů, jednotný model výsledků, společnou HTTP vrstvu a způsob logování. Součástí návrhu bude také serverová sonda, její komunikace s frameworkem, integrační rozhraní Penterep a základní bezpečnostní pravidla.
+
+Bude implementován spustitelný základ aplikace obsahující příkazové rozhraní, načítání a kontrolu konfigurace, odesílání HTTP požadavků, základní logování a export výsledků do JSON. Vznikne první funkční modul HTML Injection využívající payloady uložené mimo jeho programový kód.
+
+Bude připravena lokální laboratorní aplikace se zranitelnou a opravenou variantou. První modul bude ověřen automatizovanými testy na obou variantách. Součástí výstupu bude zdrojový kód, dokumentace návrhu a návod umožňující zopakovat demonstraci.

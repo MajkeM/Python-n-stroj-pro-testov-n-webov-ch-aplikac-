@@ -1,0 +1,13 @@
+[project]
+    name = "injection-framework"
+    version = "0.1.0"
+    description = "application is for pen testing web apps"
+    requires-python = ">=3.14"
+    dependencies=[]
+
+[tool.hatch.build.targets.wheel]
+    packages = ["src/injection_framework"]
+
+[build-system]
+    requires = ["hatchling"]
+    build-backend = "hatchling.build"
